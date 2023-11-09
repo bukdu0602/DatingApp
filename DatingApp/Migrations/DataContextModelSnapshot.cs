@@ -29,6 +29,20 @@ namespace DatingApp.Migrations
 
                     b.ToTable("Users");
                 });
+
+            modelBuilder.Entity("DatingApp.Entities.AppUserTwo", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Email")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("UsersTwo");
+                });
 #pragma warning restore 612, 618
         }
     }

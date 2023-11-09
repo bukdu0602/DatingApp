@@ -6,4 +6,10 @@
         public string UserName { get; set; }
 
     }
+    public class AppUserTwo
+    {
+        public int Id { get; set; }
+        public string Email { get; set; }
+
+    }
 }
