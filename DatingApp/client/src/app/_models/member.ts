@@ -10,7 +10,7 @@ import { Photo } from "./photo"
     lastActive: string
     gender: string
     introduction: string
-    lookoingFor: any
+    lookingFor: any
     interests: string
     city: string
     country: string
