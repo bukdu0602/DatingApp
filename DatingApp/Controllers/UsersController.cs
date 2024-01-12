@@ -22,6 +22,7 @@ namespace DatingApp.Controllers
             _mapper = mapper;
             _photoService = photoService;
         }
+
         [HttpGet]
         public async Task<ActionResult<PagedList<MemberDto>>> GetUsers([FromQuery]UserParams userParams)
         {
